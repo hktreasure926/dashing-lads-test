@@ -1,0 +1,80 @@
+
+> dashing-lads-next@0.1.0 build
+> next build
+
+  ▲ Next.js 14.2.35
+
+   Creating an optimized production build ...
+(node:31908) ExperimentalWarning: Type Stripping is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+Error: Event handlers cannot be passed to Client Component props.
+  {src: ..., alt: "Profile", fill: true, className: ..., onError: function onError}
+                                                                  ^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at e_ (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140589)
+    at Object.toJSON (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135777)
+    at stringify (<anonymous>)
+    at eE (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142242)
+    at eT (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142721)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Timeout._onTimeout (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:150805)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7) {
+  digest: '2995157455'
+}
+Error: Event handlers cannot be passed to Client Component props.
+  {src: ..., alt: "Profile", fill: true, className: ..., onError: function onError}
+                                                                  ^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at e_ (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140589)
+    at Object.toJSON (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135777)
+    at stringify (<anonymous>)
+    at eE (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142242)
+    at eT (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142721)
+    at Timeout._onTimeout (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135497)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7) {
+  digest: '3827210859'
+}
+Error: Event handlers cannot be passed to Client Component props.
+  {src: ..., alt: "Profile", fill: true, className: ..., onError: function onError}
+                                                                  ^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at e_ (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:140589)
+    at Object.toJSON (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135777)
+    at stringify (<anonymous>)
+    at eE (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142242)
+    at eT (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:142721)
+    at Timeout._onTimeout (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:135497)
+    at listOnTimeout (node:internal/timers:608:17)
+    at process.processTimers (node:internal/timers:543:7) {
+  digest: '3827210859'
+}
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ⚠ Sending SIGTERM signal to Next.js build worker due to timeout of 60 seconds. Subsequent errors may be a result of the worker exiting.
+ ⚠ Restarted static page generation for /profile because it took more than 60 seconds
+ ⚠ See more info here https://nextjs.org/docs/messages/static-page-generation-timeout
+ ✓ Generating static pages (6/6)
+
+> Build error occurred
+Error: ENOENT: no such file or directory, rename '/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/.next/export/500.html' -> '/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/.next/server/pages/500.html'
+    at async Object.rename (node:internal/fs/promises:779:10)
+    at async /Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/build/index.js:1873:33
+    at async Span.traceAsyncFn (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/trace/trace.js:154:20)
+    at async /Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/build/index.js:1924:25
+    at async Span.traceAsyncFn (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/trace/trace.js:154:20)
+    at async /Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/build/index.js:1546:17
+    at async Span.traceAsyncFn (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/trace/trace.js:154:20)
+    at async build (/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/node_modules/next/dist/build/index.js:368:9) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/.next/export/500.html',
+  dest: '/Users/lukherman/AI_Script/003_DashingLads/dashing-lads-next/.next/server/pages/500.html'
+}
